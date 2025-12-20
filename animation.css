@@ -1,0 +1,20 @@
+button:hover {
+    background-position: right;
+}
+
+ul li a:hover {
+    color: var(--yellow-color);
+}
+
+.faq-item:hover::before {
+    left: 0;
+}
+
+.faq-item:hover {
+    border-bottom-color: transparent;
+
+    .arrow {
+        background: var(--main-color);
+    }
+}
+

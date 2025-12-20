@@ -1,0 +1,895 @@
+@media (min-width: 769px) and (max-width: 1200px) {
+  /* General Styles */
+  .container {
+    width: 768px;
+  }
+
+  button {
+    padding: 10px;
+    height: 50px;
+    width: 170px;
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  h3 {
+    font-size: 16px !important;
+  }
+
+  h4 {
+    font-size: 15px !important;
+  }
+
+  li {
+    font-size: 15px !important;
+  }
+
+  /* Header */
+  .logo-name,
+  header button {
+    display: none;
+  }
+
+  /* Hero */
+  .hero-main-text {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  .container-right {
+    display: none;
+  }
+
+  .vasil-foto img {
+    transform: scaleX(-1);
+  }
+
+  /* About Us */
+  .about {
+    font-size: 20px;
+  }
+
+  /* No Effort Needed */
+  .arguments {
+    gap: 20px;
+    width: 100%;
+  }
+
+  .argument {
+    padding: 25px !important;
+  }
+
+  /* Services */
+  #tab-buttons button {
+    margin-top: 10px;
+    width: 300px;
+  }
+
+  .tab-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .what-is {
+    margin-top: 50px !important;
+  }
+
+  .tab-blocks button {
+    width: 200px;
+  }
+
+  /* Reasons Section */
+  .contact-us {
+    width: 200px;
+  }
+
+  .reason-card {
+    width: 320px;
+    height: 65px;
+    padding: 15px;
+  }
+
+  .reason-card br {
+    display: none;
+  }
+
+  /* Portfolio */
+  .portfolio {
+    margin-top: 2px;
+  }
+
+  .swiper-slide {
+    margin-top: -80px;
+  }
+
+  .case-right {
+    text-align: center;
+    margin-top: -70px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: -100px !important;
+  }
+
+  .result-done {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .case-buttons {
+    gap: 5px;
+  }
+
+  .case-buttons button {
+    font-size: 15px;
+    height: 40px;
+  }
+
+  /* Contact Section */
+  .benefits-cards {
+    gap: 20px;
+  }
+
+  .benefit-card {
+    width: 310px;
+  }
+
+  .benefit-card:nth-child(3) {
+    flex-direction: row;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .benefit-card:nth-child(3) .benefit-number {
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .benefit-card:nth-child(3) br {
+    display: none;
+  }
+
+  form {
+    flex-wrap: wrap;
+  }
+
+  form input {
+    width: 352px !important;
+    box-sizing: border-box;
+  }
+
+  .contact-form-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-form-btn button {
+    width: 200px;
+  }
+
+  /* FAQ */
+  .faq {
+    margin-top: 20px;
+  }
+
+  /* Footer */
+  footer .logo {
+    width: 100px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+}
+
+/* Media Query for screens up to 768px */
+@media (max-width: 768px) {
+  /* General Styles */
+  .container {
+    width: 550px;
+    padding: 0px;
+  }
+
+  button {
+    padding: 10px;
+    height: 50px;
+    min-width: 130px;
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 27px;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  h3 {
+    font-size: 16px !important;
+  }
+
+  h4 {
+    font-size: 15px !important;
+  }
+
+  li {
+    font-size: 15px !important;
+  }
+
+  /* Header */
+  nav ul {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .logo-name,
+  header button {
+    display: none;
+  }
+
+  ul {
+    width: 390px !important;
+  }
+
+  /* Hero */
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .vasil-foto {
+    order: 1;
+    margin-top: 20px;
+  }
+
+  .vasil-foto img {
+    width: 400px;
+    transform: scaleX(-1);
+  }
+
+  .container-left {
+    flex-direction: row;
+    order: 2;
+    margin-top: 0px;
+    margin-right: 180px;
+    gap: 100px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .container-left .experience {
+    margin-left: 45px !important;
+  }
+
+  .hero-main-text {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .container-right {
+    display: none;
+  }
+
+  /* About Us */
+  .about {
+    font-size: 20px;
+  }
+
+  /* No Effort Needed */
+  .arguments {
+    gap: 20px;
+  }
+
+  /* Services */
+  #tab-buttons button {
+    margin-top: 10px;
+    min-width: 120px;
+  }
+
+  .tab {
+    padding: 0;
+    flex-direction: column !important;
+  }
+
+  .tab-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -50px !important;
+    margin-left: 15px;
+  }
+
+  .tab-blocks button {
+    display: none;
+  }
+
+  .tab-block {
+    width: 200px;
+  }
+
+  .what-is {
+    margin-top: 20px !important;
+  }
+
+  /* Reasons Section */
+  .contact-us {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+
+  .reason-card {
+    width: 100%;
+  }
+
+  .reason-card br {
+    display: none;
+  }
+
+  /* Portfolio */
+  .portfolio {
+    margin-top: 60px;
+  }
+
+  .swiper-slide {
+    margin-top: -150px !important;
+  }
+
+  .swiper-slide img {
+    display: none;
+  }
+
+  .case-right {
+    text-align: center;
+    margin-top: -70px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: -100px !important;
+  }
+
+  .result-done {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .results,
+  .done {
+    width: 300px;
+  }
+
+  .results li {
+    width: 76%;
+  }
+
+  .btn {
+    width: 150px !important;
+  }
+
+  .case-buttons {
+    gap: 5px;
+  }
+
+  .case-buttons button {
+    font-size: 15px;
+    height: 40px;
+    max-width: 150px !important;
+  }
+
+  .case {
+    flex-direction: column;
+  }
+
+  .case-left,
+  .case-right {
+    flex: none;
+    width: 100%;
+  }
+
+  .case-right {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  /* Contact Section */
+  .contact-form {
+    margin-top: 0px;
+  }
+
+  .benefits-cards {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .benefit-number {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 0px;
+  }
+
+  .benefit-card {
+    flex-direction: row;
+    align-items: center;
+    height: 55px;
+    padding: 0 15px;
+    width: 90%;
+    gap: 20px;
+    font-size: 12px;
+  }
+
+  .benefit-card br {
+    display: none;
+  }
+
+  form {
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+
+  form input {
+    width: 40% !important;
+    height: 55px !important;
+    font-size: 15px !important;
+    margin-top: 20px;
+  }
+
+  .contact-form-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-form-btn button {
+    font-size: 15px;
+  }
+
+  /* FAQ */
+  .faq {
+    margin-top: 20px;
+  }
+
+  .question h2 {
+    font-size: 18px !important;
+  }
+
+  /* Footer */
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-navigation,
+  .footer-social,
+  .footer-contact {
+    text-align: center;
+  }
+
+  footer .logo-name {
+    display: block;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Modal */
+  .mobile-menu button {
+    display: block;
+  }
+}
+
+/* Media Query for screens up to 550px */
+@media (max-width: 550px) {
+  /* General Styles */
+  body {
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 25px 10px;
+  }
+
+  button {
+    padding: 10px;
+    height: 40px;
+    max-width: 200px !important;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px !important;
+  }
+
+  h3 {
+    font-size: 12px !important;
+    margin-top: 0px !important;
+  }
+
+  h4 {
+    font-size: 12px !important;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  li {
+    font-size: 10px !important;
+  }
+
+  /* Header */
+  header {
+    padding: 0 10px;
+  }
+
+  .logo-img {
+    width: 35px;
+  }
+
+  .logo-name,
+  header button {
+    display: none;
+  }
+
+  header ul {
+    display: none !important;
+  }
+
+  .menu-toggle {
+    font-size: 40px;
+  }
+
+  /* Hero */
+  .hero-container {
+    padding: 0;
+    margin-top: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+
+  .hero-main-text {
+    font-size: 15px;
+  }
+
+  .experience:last-child {
+    display: block;
+  }
+
+  .container-left {
+    order: 2;
+    gap: 0;
+    margin: 0;
+    height: 65px;
+    width: 500px;
+    margin-top: -20px;
+  }
+
+  .container-left h3, .container-right h3 {
+    width: 300px;
+  }
+
+  .container-right {
+    display: block;
+    order: 3;
+    justify-content: flex-start !important;
+    width: 150px;
+    height: 100px;
+    margin-left: -200px;
+    margin-bottom: -150px;
+  }
+
+  .container-right .experience {
+    margin-left: 40px;
+  }
+
+
+  .container-right .experience br {
+    display: none;
+  }
+
+  .vasil-foto {
+    position: relative;
+    display: flex;
+    z-index: 0;
+    height: 290px;
+    order: 1;
+    margin-top: -25px;
+  }
+
+  .vasil-foto img {
+    margin-top: 130px;
+    width: 300px;
+    z-index: 100;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .vasil-foto::before {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 270%;
+    background: repeating-linear-gradient(
+      135deg,
+      #f5a0183c 0px,
+      #f5a01812 2px,
+      transparent 6px,
+      transparent 12px
+    );
+    opacity: 0.4;
+    z-index: -1;
+    top: 200px;
+    transform: translate(-50%, -50%);
+}
+
+  .line {
+    display: none;
+  }
+
+  .circle {
+    top: -65px;
+    left: 55px;
+    z-index: 100;
+    display: none;
+  }
+
+  .budget {
+    display: none;
+  }
+
+  .job {
+    font-size: 15px !important;
+  }
+
+  .experience:last-child {
+    text-shadow: 0 100px 10px black;
+  }
+
+  /* About Us */
+  .about-us {
+    height: 320px;
+    margin-top: 100px;
+  }
+
+  .about {
+    font-size: 12px !important;
+    width: 350px;
+  }
+
+  .about span:first-child {
+    font-size: 15px;
+  }
+
+  .coment {
+    font-size: 10px;
+  }
+
+  /* No Effort Needed */
+  .argument {
+    padding: 20px !important;
+    height: 60px;
+  }
+
+  .argument-text span {
+    font-size: 15px;
+  }
+
+  .argument-text {
+    font-size: 12px;
+  }
+
+  /* Services */
+  #tab-buttons button {
+    margin-top: 10px;
+    width: 45% !important;
+  }
+
+  .tab {
+    padding: 0;
+    flex-direction: column !important;
+  }
+
+  .tab-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -50px !important;
+    margin-left: 5px;
+  }
+
+  .tab-blocks button {
+    display: none;
+  }
+
+  .tab-block {
+    width: 120px;
+  }
+
+  .tab-block ul {
+    width: 120px !important;
+  }
+
+  .what-is {
+    margin-top: 20px !important;
+  }
+
+  /* Reasons Section */
+  .contact-us {
+    max-width: 300px;
+  }
+
+  .reason-number {
+    font-size: 30px;
+  }
+
+  .reason-text {
+    font-size: 15px;
+  }
+
+  /* Portfolio */
+  .portfolio {
+    margin-top: 100px;
+  }
+
+  .swiper-slide {
+    margin-top: -100px !important;
+  }
+
+  .swiper-slide img {
+    display: none;
+  }
+
+  .case-right {
+    text-align: center;
+    margin-top: -150px;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 25px !important;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: -190px !important;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .result-done {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .done::before {
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    right: -20px;
+  }
+
+  .results::before {
+    width: 100px;
+    height: 100px;
+    bottom: 60px;
+    left: -20px;
+  }
+
+  .results,
+  .done {
+    width: 250px;
+  }
+
+  .results li {
+    width: 64%;
+  }
+
+  .case-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn {
+    width: 130px !important;
+  }
+
+  .case-buttons button {
+    font-size: 15px;
+    height: 40px;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    margin-top: -100px;
+    margin-bottom: 100px;
+  }
+
+  .benefits-cards {
+    padding: 15px;
+  }
+
+  .benefit-number {
+    font-size: 15px;
+    width: 45px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 0px;
+  }
+
+  form input {
+    width: 100% !important;
+    height: 50px !important;
+    margin-top: 20px;
+  }
+
+  /* FAQ */
+  .faq {
+    margin-top: 20px;
+  }
+
+  .question h2 {
+    font-size: 14px !important;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: -50px;
+  }
+
+  .footer-top {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-navigation,
+  .footer-social {
+    width: 120px;
+    height: 100px;
+  }
+
+  .footer-navigation,
+  .footer-social,
+  .footer-contact {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  footer .logo {
+    display: none;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    height: 70px;
+  }
+}

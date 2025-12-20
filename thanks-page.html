@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дякуємо</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '726375066400351');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=726375066400351&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- TikTok Pixel Code Start -->
+    <script>
+        !function (w, d, t) {
+            w.TiktokAnalyticsObject = t;
+            var ttq = w[t] = w[t] || [];
+            ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie", "holdConsent", "revokeConsent", "grantConsent"];
+            ttq.setAndDefer = function (t, e) {
+                t[e] = function () {
+                    t.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                }
+            };
+            for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+            ttq.instance = function (t) {
+                var e = ttq._i[t] || [];
+                for (var n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+                return e
+            };
+            ttq.load = function (e, n) {
+                var r = "https://analytics.tiktok.com/i18n/pixel/events.js";
+                var o = n && n.partner;
+                ttq._i = ttq._i || {};
+                ttq._i[e] = [];
+                ttq._i[e]._u = r;
+                ttq._t = ttq._t || {};
+                ttq._t[e] = +new Date;
+                ttq._o = ttq._o || {};
+                ttq._o[e] = n || {};
+                n = document.createElement("script");
+                n.type = "text/javascript";
+                n.async = !0;
+                n.src = r + "?sdkid=" + e + "&lib=" + t;
+                e = document.getElementsByTagName("script")[0];
+                e.parentNode.insertBefore(n, e)
+            };
+    
+            ttq.load('D0TFL13C77UBTE66NE60');
+            ttq.page();
+            ttq.track('Lead'); // <--- ДОДАНА ПОДІЯ
+        }(window, document, 'ttq');
+    </script>
+    <!-- TikTok Pixel Code End -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 90vh;
+            background: linear-gradient(135deg, #828282, #6f6c6c, #828282);
+            background: #000000;
+            color: #fff;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 20px;
+            overflow: hidden;
+        }
+
+        .lines {
+            text-align: start;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        div {
+            font-family: "Montserrat Alternates", sans-serif;
+            margin-top: 10px;
+        }
+
+        .line {
+            overflow: hidden;
+            border-right: .15em solid orange;
+            white-space: nowrap;
+            font-family: "Montserrat Alternates", sans-serif;
+            margin: 20px auto;
+            font-size: 6vw;
+            line-height: 1.3;
+            opacity: 0;
+            animation: typing 2.5s steps(30, end) forwards, blink .75s step-end infinite;
+            animation-delay: 0s;
+        }
+
+
+        @keyframes typing {
+            from {
+                width: 0;
+                opacity: 1;
+            }
+
+            to {
+                width: 290px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes blink {
+
+            from,
+            to {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: rgb(255, 255, 255);
+            }
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            width: 100%;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 10px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            width: 45%;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            /* ледве помітна рамка */
+            backdrop-filter: brightness(1.1);
+            /* легка "світлість" */
+        }
+
+        .btn i {
+            margin-right: 10px;
+        }
+
+        .back {
+            background: black;
+            width: 100%;
+        }
+
+        .tiktok {
+            background: black;
+            width: 100%;
+        }
+
+        .tiktok:hover {
+            background: #333;
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        }
+
+        .instagram:hover {
+            filter: brightness(1.1);
+        }
+
+        .facebook {
+            background: #1877f2;
+        }
+
+        .facebook:hover {
+            background: #0d60d0;
+        }
+
+        .video {
+            background: linear-gradient(45deg, #a64bf4, #ff4fd8);
+        }
+
+        .video:hover {
+            filter: brightness(1.1);
+        }
+
+        .telegram {
+            background: linear-gradient(45deg, #0a2e73, #229ed9);
+        }
+
+        .telegram:hover {
+            filter: brightness(1.1);
+        }
+
+        @media (min-width: 600px) {
+            .line {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lines">
+        <div class="line">Дякуємо за заявку!</div>
+        <div data-aos="fade-right" data-aos-delay="1000">Ми отримали ваш запит і скоро зв’яжемося.</div>
+        <div data-aos="fade-left" data-aos-delay="1000">Готуйтеся до потужного маркетингу та результатів.</div>
+    </div>
+
+    <div class="buttons">
+        <a href="./index.html" class="btn back" data-aos="zoom-in" data-aos-delay="1000"><i
+                class="fas fa-arrow-left"></i> Повернутись на головну </a>
+        <a href="https://www.facebook.com/vasil.stenavs.kij.961855/?rdid=zudXDzn9hdd0Lk3k" target="_blank"
+            class="btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="https://www.instagram.com/stenavskyi.v/" target="_blank" class="btn instagram"><i
+                class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.tiktok.com/@stenavskyi.v/video/7499035978456108343?is_from_webapp=1&sender_device=pc&web_id=7501008906934027781"
+            target="_blank" class="btn video"><i class="fas fa-play-circle"></i> Відео офісу</a>
+        <a href="https://t.me/vstenli" target="_blank" class="btn telegram"><i class="fab fa-telegram"></i> Telegram</a>
+        <a href="https://www.tiktok.com/@stenavskyi.v" target="_blank" class="btn tiktok"><i class="fab fa-tiktok"></i>
+            TikTok</a>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+</body>
+
+</html>
